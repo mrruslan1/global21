@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Глобальное потепление: угроза и решения</title>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">Климат<span>.Новости</span></div>
+        <nav class="nav">
+            <ul>
+                <li><a href="#what">Что это</a></li>
+                <li><a href="#causes">Причины</a></li>
+                <li><a href="#effects">Последствия</a></li>
+                <li><a href="#solutions">Решения</a></li>
+                <li><a href="#quiz">Тест</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Глобальное потепление:<br>Вызов XXI века</h1>
+            <p>Научимся понимать, предотвращать и адаптироваться.</p>
+            <a href="#what" class="btn">Узнать больше</a>
+        </section>
+
+        <section id="what" class="section">
+            <h2>Что такое глобальное потепление?</h2>
+            <p>Глобальное потепление — это долгосрочное повышение средней температуры климатической системы Земли, главным образом из‑за антропогенных выбросов парниковых газов.</p>
+            <img src="img/OIP (1).jpg" alt="Термометр показывает рост температуры" class="illustration">
+        </section>
+
+        <section id="causes" class="section">
+            <h2>Основные причины</h2>
+            <ul class="causes-list">
+                <li>Сжигание ископаемого топлива (уголь, нефть, газ)</li>
+                <li>Вырубка лесов</li>
+                <li>Промышленное производство</li>
+                <li>Сельское хозяйство (метан от скота)</li>
+                <li>Транспорт</li>
+            </ul>
+        </section>
+
+        <section id="effects" class="section">
+            <h2>Последствия</h2>
+            <div class="effects-grid">
+                <div class="effect-card">
+                    <h3>Рост уровня моря</h3>
+                    <p>Таяние ледников угрожает прибрежным городам.</p>
+                </div>
+                <div class="effect-card">
+                    <h3>Экстремальные погодные явления</h3>
+                    <p>Ураганы, засухи, наводнения становятся чаще.</p>
+                </div>
+                <div class="effect-card">
+                    <h3>Угроза биоразнообразию</h3>
+                    <p>Многие виды не успевают адаптироваться.</p>
+                </div>
+                <div class="effect-card">
+                    <h3>Продовольственный кризис</h3>
+                    <p>Снижение урожайности в ключевых регионах.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="solutions" class="section">
+            <h2>Пути решения</h2>
+            <ol class="solutions-list">
+                <li>Переход на возобновляемую энергию</li>
+                <li>Энергоэффективность зданий и транспорта</li>
+                <li>Восстановление лесов</li>
+                <li>Сокращение отходов и переработка</li>
+                <li>Международные соглашения (Парижское соглашение)</li>
+            </ol>
+            <button id="takeActionBtn" class="btn">Принять участие</button>
+        </section>
+
+        <section id="quiz" class="section quiz">
+            <h2>Проверьте свои знания</h2>
+            <div id="quizContainer">
+                <p><strong>Вопрос 1:</strong> Главный парниковый газ?</p>
+                <label><input type="radio" name="q1" value="a"> CO₂</label>
+                <label><input type="radio" name="q1" value="b"> O₂</label>
+                <label><input type="radio" name="q1" value="c"> N₂</label>
+
+                <p><strong>Вопрос 2:</strong> Какой сектор даёт больше выбросов?</p>
+                <label><input type="radio" name="q2" value="a"> Транспорт</label>
+                <label><input type="radio" name="q2" value="b"> Энергетика</label>
+                <label><input type="radio" name="q2" value="c"> Сельское хозяйство</label>
+
+                <button id="submitQuiz">Отправить</button>
+                <div id="result"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="frrrr">
+            <li><a href="#">О проекте,,Создатель Руслан,,</a></li>
+    </footer>
+</body>
+</html>
